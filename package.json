@@ -47,19 +47,19 @@
   "dependencies": {
     "@hapi/boom": "^9.1.3",
     "@adiwajshing/keyed-db": "^0.2.4",
-    "@cacheable/node-cache": "1.5.3", 
-    "@itsukichan/eslint-config": "^1.0.0", 
-    "@itsukichan/libsignal-node": "^1.0.0", 
+    "@cacheable/node-cache": "1.5.3",
+    "@itsukichan/eslint-config": "^1.0.0",
+    "@itsukichan/libsignal-node": "^1.0.0",
     "async-mutex": "^0.5.0",
     "axios": "^1.6.0",
-    "audio-decode": "^2.2.2", 
-    "cache-manager": "^5.7.6", 
+    "audio-decode": "^2.2.2",
+    "cache-manager": "^5.7.6",
     "lodash": "^4.17.21",
-    "link-preview-js": "^3.0.14", 
+    "link-preview-js": "^3.0.14",
     "music-metadata": "^7.12.3",
     "pino": "^9.6",
     "protobufjs": "^7.2.4",
-    "qrcode-terminal": "^0.12.0", 
+    "qrcode-terminal": "^0.12.0",
     "ws": "^8.13.0"
   },
   "devDependencies": {
@@ -71,10 +71,8 @@
     "jest": "^27.0.6",
     "jimp": "^0.22.12",
     "json": "^11.0.0",
-    "link-preview-js": "^3.0.5",
     "open": "^8.4.2",
     "release-it": "^15.10.3",
-    "sharp": "^0.32.6",
     "ts-jest": "^27.0.3",
     "ts-node": "^10.8.1",
     "typedoc": "^0.27.9",
@@ -82,14 +80,10 @@
     "typescript": "^5.8.2"
   },
   "peerDependencies": {
-    "jimp": "^0.22.12",
-    "sharp": "^0.34.1"
+    "jimp": "^0.22.12"
   },
   "peerDependenciesMeta": {
     "jimp": {
-      "optional": true
-    },
-    "sharp": {
       "optional": true
     }
   },
